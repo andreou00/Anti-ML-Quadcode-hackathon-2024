@@ -1,6 +1,3 @@
-
-Anti-Money Laundering system using Machine learning model Neural Network.
-
 # Anti-Money Laundering Neural Network Model
 
 This project documents the creation and deployment of the "Anti_ML_model.h5" Neural Network Model designed to detect money laundering activities in transaction data.
@@ -51,6 +48,7 @@ After training, the model was exported as `anti_ML_model.h5` for deployment and 
 - **`A_ML_QuadCodehackathon_Neural_Network.ipynb`**: Jupyter notebook used for training and creating the neural network model.
 - **`A-ML_Demo_Quadcode_hackathon.py`**: Script for loading the model, processing transaction data, making predictions, and interacting via a Streamlit UI.
 - **`Anti_ML_model.h5`**: The trained neural network model.
+- **`transactions.csv`**: The CSV file containing transaction data.
 
 ## Running the Project
 
@@ -65,9 +63,11 @@ After training, the model was exported as `anti_ML_model.h5` for deployment and 
 
 ## Example Usage
 
+![image](https://github.com/andreou00/Anti-ML-Quadcode-hackathon-2024/assets/157217334/8e3a5178-7ba1-4361-bf70-27b1ae254593)
+
 To start the Streamlit app for interactive use, run:
 ```bash
 streamlit run A-ML_Demo_Quadcode_hackathon.py
 
 
-![image](https://github.com/andreou00/Anti-ML-Quadcode-hackathon-2024/assets/157217334/8e3a5178-7ba1-4361-bf70-27b1ae254593)
+
