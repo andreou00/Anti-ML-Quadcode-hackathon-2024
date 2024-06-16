@@ -7,3 +7,22 @@ Model Training: We used the generated data to train our Neural Network model. Th
 Model Export: Post-training, we exported the model as "anti_ML_model.h5" to use on our demo for real-time data.
 
 This comprehensive approach ensured the development of a robust and highly accurate model tailored for identifying money laundering activities.
+
+Model Summary:
+
+Model: "sequential_1"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_3 (Dense)             (None, 64)                640       
+                                                                 
+ dense_4 (Dense)             (None, 32)                2080      
+                                                                 
+ dense_5 (Dense)             (None, 2)                 66        
+                                                                 
+=================================================================
+Total params: 2786 (10.88 KB)
+Trainable params: 2786 (10.88 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+
