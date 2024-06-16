@@ -1,4 +1,4 @@
-![image](https://github.com/andreou00/Anti-ML-Quadcode-hackathon-2024/assets/157217334/8e3a5178-7ba1-4361-bf70-27b1ae254593)
+![image](https://github.com/andreou00/Anti-ML-Quadcode-hackathon-2024/assets/157217334/52d6a588-e895-4bd4-8f72-6cf165cb6f3f)
 
 # Anti-Money Laundering Neural Network Model
 
@@ -57,6 +57,10 @@ This repository contains the necessary files and scripts to deploy and interact 
 
 
 This will launch a web interface where you can add new transactions, view predictions, and analyze detected fraudulent activities.
+![image](https://github.com/andreou00/Anti-ML-Quadcode-hackathon-2024/assets/157217334/98aac8cd-3111-489d-82e5-0bb6f06b951a)
+![image](https://github.com/andreou00/Anti-ML-Quadcode-hackathon-2024/assets/157217334/1a7eb891-8229-4d2c-b923-27d3fe6d53e6)
+
+
 
 ## Dependencies
 Ensure all dependencies are installed, including TensorFlow, Pandas, Streamlit, and other required libraries, to run the scripts effectively.
