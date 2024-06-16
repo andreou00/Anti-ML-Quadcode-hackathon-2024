@@ -1,29 +1,24 @@
 # Anti-Money Laundering Neural Network Model
 
-This project documents the creation and deployment of the "Anti_ML_model.h5" Neural Network Model designed to detect money laundering activities in transaction data.
+This project documents the deployment and usage of the "Anti_ML_model.h5" Neural Network Model designed to detect money laundering activities in transaction data.
 
 ## Table of Contents
 
-1. [Data Generation](#data-generation)
-2. [Model Training](#model-training)
-3. [Model Export](#model-export)
-4. [Usage](#usage)
-5. [Scripts and Files](#scripts-and-files)
-6. [Running the Project](#running-the-project)
-7. [Example Usage](#example-usage)
-8. [Dependencies](#dependencies)
+1. [Introduction](#introduction)
+2. [Usage](#usage)
+3. [Scripts and Files](#scripts-and-files)
+4. [Running the Project](#running-the-project)
+5. [Example Usage](#example-usage)
+6. [Dependencies](#dependencies)
+7. [Model Creation](#model-creation)
 
-## Data Generation
+## Introduction
 
-Due to the lack of suitable real-world datasets, we generated our own transaction data. The final version of the script `generatingTransactions.py` was used to create a dataset that includes both normal and money laundering transactions with added noise to mimic real-world complexities.
+This repository contains the necessary files and scripts to deploy and interact with the "Anti_ML_model.h5" Neural Network Model for detecting money laundering transactions. The primary focus is on the deployment and usage of the model using the following key files:
 
-## Model Training
-
-We used the generated dataset to train our Neural Network model using the script `A_ML_QuadCodehackathon_Neural_Network.ipynb`. This model achieved an accuracy of 97% in detecting money laundering transactions.
-
-## Model Export
-
-After training, the model was exported as `anti_ML_model.h5` for deployment and further use.
+- `A-ML_Demo_Quadcode_hackathon.py`
+- `Anti_ML_model.h5`
+- `transactions.csv`
 
 ## Usage
 
@@ -44,30 +39,23 @@ After training, the model was exported as `anti_ML_model.h5` for deployment and 
 
 ## Scripts and Files
 
-- **`generatingTransactions.py`**: Script to generate synthetic transaction data.
-- **`A_ML_QuadCodehackathon_Neural_Network.ipynb`**: Jupyter notebook used for training and creating the neural network model.
 - **`A-ML_Demo_Quadcode_hackathon.py`**: Script for loading the model, processing transaction data, making predictions, and interacting via a Streamlit UI.
 - **`Anti_ML_model.h5`**: The trained neural network model.
 - **`transactions.csv`**: The CSV file containing transaction data.
 
 ## Running the Project
 
-1. **Data Generation**:
-   - Run the `generatingTransactions.py` script to create a dataset of transactions.
-
-2. **Model Training**:
-   - Use the Jupyter notebook `A_ML_QuadCodehackathon_Neural_Network.ipynb` to train the neural network model and export it as `anti_ML_model.h5`.
-
-3. **Model Deployment and Interaction**:
-   - Use the `A-ML_Demo_Quadcode_hackathon.py` script to load the model, preprocess transaction data, make predictions, and visualize results using Streamlit.
-
-## Example Usage
-
 ![image](https://github.com/andreou00/Anti-ML-Quadcode-hackathon-2024/assets/157217334/8e3a5178-7ba1-4361-bf70-27b1ae254593)
 
-To start the Streamlit app for interactive use, run:
-```bash
-streamlit run A-ML_Demo_Quadcode_hackathon.py
+1. **Initialize and Clean Data**:
+   - Ensure `transactions.csv` is initialized and consistent by running the relevant functions in the `A-ML_Demo_Quadcode_hackathon.py` script.
+
+2. **Start the Streamlit App**:
+   - Use the following command to start the Streamlit app and interact with the model:
+   ```bash
+   streamlit run A-ML_Demo_Quadcode_hackathon.py
+
+
 
 
 
