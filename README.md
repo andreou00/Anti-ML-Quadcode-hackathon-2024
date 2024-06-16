@@ -1,3 +1,5 @@
+![image](https://github.com/andreou00/Anti-ML-Quadcode-hackathon-2024/assets/157217334/8e3a5178-7ba1-4361-bf70-27b1ae254593)
+
 # Anti-Money Laundering Neural Network Model
 
 This project documents the deployment and usage of the "Anti_ML_model.h5" Neural Network Model designed to detect money laundering activities in transaction data.
@@ -41,11 +43,9 @@ This repository contains the necessary files and scripts to deploy and interact 
 
 - **`A-ML_Demo_Quadcode_hackathon.py`**: Script for loading the model, processing transaction data, making predictions, and interacting via a Streamlit UI.
 - **`Anti_ML_model.h5`**: The trained neural network model.
-- **`transactions.csv`**: The CSV file containing transaction data.
+- **`transactions.csv`**: The CSV file containing transaction data. You can add any transaction you want in `transactions.csv`.
 
 ## Running the Project
-
-![image](https://github.com/andreou00/Anti-ML-Quadcode-hackathon-2024/assets/157217334/8e3a5178-7ba1-4361-bf70-27b1ae254593)
 
 1. **Initialize and Clean Data**:
    - Ensure `transactions.csv` is initialized and consistent by running the relevant functions in the `A-ML_Demo_Quadcode_hackathon.py` script.
@@ -56,6 +56,11 @@ This repository contains the necessary files and scripts to deploy and interact 
    streamlit run A-ML_Demo_Quadcode_hackathon.py
 
 
+This will launch a web interface where you can add new transactions, view predictions, and analyze detected fraudulent activities.
 
+## Dependencies
+Ensure all dependencies are installed, including TensorFlow, Pandas, Streamlit, and other required libraries, to run the scripts effectively.
 
+## Model Creation
+For more information on model creation, you can look into the Anti-ML Neural Network Model Creation folder.
 
